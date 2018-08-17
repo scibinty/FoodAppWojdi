@@ -84,16 +84,25 @@ header nav a:last-child{
   background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
-/* Hero 
+/* Hero asd
 
 */
+.hero-container{
+flex-grow: 1;
+}
+
+.phone{
+flex-grow: 1;
+}
+
 .hero{
     position: relative;
 	justify-content: center;
-	min-height: 90vh;
+	min-height: 100vh;
 	color: #fff;
 	text-align: center;
     flex-direction: row;
+    
 }
 
 .hero .grad{
