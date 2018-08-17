@@ -93,6 +93,7 @@ header nav a:last-child{
 	min-height: 90vh;
 	color: #fff;
 	text-align: center;
+    flex-direction: row;
 }
 
 .hero .grad{
