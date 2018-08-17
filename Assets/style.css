@@ -1,0 +1,130 @@
+/*-------------
+ 	podstawowe
+-------------*/
+a {
+text-decoration: none;
+}
+
+ul, nav{
+	list-style: none;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    font-family: 'Quicksand', sans-serif;
+	padding: 125px 100px;
+}
+
+
+/*-------------
+ 	Headerek
+-------------*/
+
+header{
+	position: fixed;
+	z-index: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #ffffff;
+	padding: 35px 100px 0;
+}
+
+
+header {
+	font-family: 'Quicksand', sans-serif;
+}
+
+header nav{
+	display: flex;
+}
+
+header nav a{
+	margin: 0 15px;
+}
+
+header nav a:first-child{
+	margin-left: 0;	
+}
+
+header nav a:last-child{
+	margin-right: 0;	
+}
+
+@media (max-width: 1000px){
+	header{
+		padding: 20px 50px;
+	}
+}
+
+
+@media (max-width: 700px){
+	header{
+		flex-direction: column;		
+	}
+
+	header h2{
+		margin-bottom: 15px;
+	}
+}
+
+.grad {
+  
+  background: #355c7d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #355c7d, #6c5b7b, #c06c84); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/* Hero 
+
+*/
+.hero{
+    position: relative;
+	justify-content: center;
+	min-height: 90vh;
+	color: #fff;
+	text-align: center;
+}
+
+.hero .grad{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	
+	z-index: -1;
+}
+
+.hero h1{
+	font: bold 60px 'Open Sans', sans-serif;
+	margin-bottom: 2px;
+}
+
+.hero h3{
+	font: normal 24px 'Open Sans', sans-serif;
+	margin-bottom: 20px;
+}
+
+.hero a.btn{
+	padding: 20px 46px;
+}
+
+a.btn{
+	color: #fff;
+	border-radius: 6px;
+	text-transform: uppercase;
+	background-color: #2196F3;
+	font-weight: 800;
+	text-align: center;
+}
