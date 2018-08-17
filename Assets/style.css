@@ -112,8 +112,10 @@ header nav a:last-child{
 }
 
 .hero h3{
-	font: normal 24px 'Open Sans', sans-serif;
+	font: 20px 'Open Sans', sans-serif;
+    font-weight:100;
 	margin-bottom: 20px;
+    opacity: 0.8;
 }
 
 .hero a.btn{
